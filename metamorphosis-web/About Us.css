@@ -1,0 +1,317 @@
+
+
+html {
+    font-family: serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+header {
+    font-weight: normal;
+}
+header h1 {
+    font-weight: normal;
+    font-size: 165%;
+}
+
+.Logo {
+    position: absolute;
+    top: 200px;
+    right: 600px;
+    z-index: 1009;
+}
+
+.Logo img {
+    border-radius: 50%;
+}
+
+.carousel-item img {
+    opacity: .3;
+}
+
+.carousel-caption h5 {
+    color: black;
+}
+
+.carousel-caption p {
+    color: black;
+}
+
+.carousel-indicators button{
+    color: black;
+}
+
+/* link-btn styles */
+
+.toggle-btn {
+    display: none;
+}
+
+.toggle-btn-visible {
+    display: block;
+}
+
+.toggle-target-hidden {
+    display: none;
+}
+
+.toggle-target-expanded {
+    display: block;
+}
+
+/* end link button styles */
+
+
+.container {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        padding-left: 20px;
+    padding-right: 20px;
+    }
+
+    
+
+}
+
+.content-area {
+background-color: #fff;
+max-width: 940px;
+margin: 0 auto;
+padding-top: 0px;
+padding-bottom: 20px;
+padding-top: 40px;
+}
+
+.main-area {
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.main-area h2 {
+    font-weight: normal;
+}
+
+.main-area h3 {
+    font-weight: normal;
+}
+
+.sidebar {
+    width: 34%;
+    float: left;
+    background-color: rgb(180, 238, 187);
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+}
+
+
+@media screen and (max-width: 700px) {
+    .main-area,
+    .sidebar {
+        width: auto;
+        float: none;
+    }
+
+    .main-area {
+        padding-right: 0px;
+    }
+
+}
+
+.carousel {
+    position: relative;
+}
+
+/* link decoration */
+.link {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 200px;
+    opacity: 1;
+    z-index: 1009;
+    margin: top 20px;
+    padding-top: 55px;
+}
+
+.link ul {
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.link li {
+    list-style: none;
+    margin-right: 5px;
+    color: #000000;
+    font-family: 'Open Sans', serif;
+    box-sizing: border-box;
+    float: left;
+}
+
+.link a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.LINKS a:hover {
+    color: rgb(0, 0, 0);
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+.link .real a {
+    border: 5px solid black;
+}
+
+.link .real a:hover {
+    color: black;
+}
+
+/* end link decoration */
+
+
+@media screen and (max-width:700px) {
+
+
+    header {
+        padding-left: 50px;
+    }
+
+    .main-area {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .link p {
+        font-size: 90%;
+    }
+    
+}
+
+/* footer decoration */
+
+.footer {
+    background-color: #19ae63;
+    display: flex;
+    padding-left: 100px;
+}
+
+.footer .footer-1 {
+    padding-top: 45px;
+    color: #fff;
+}
+
+.footer .footer-1 a {
+    color: #999;
+    text-decoration: none;
+}
+
+.lets {
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.footer h3 {
+    font-weight: 100;
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lets p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.footer h2 {
+    color: #fff;
+}
+
+.pr-po a {
+    font-weight: bolder;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.logo img {
+    border-radius: 50%;
+    float: 1;
+}
+
+.Dubai p {
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 30;
+
+}
+
+.sentence .text p {
+    font-weight: 100;
+    font-size: 15px;
+    max-width: 250px;
+}
+
+.sentence .word p {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.sentence .text h5 {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 30;
+} 
+
+.word-1 {
+    padding-bottom: 50px;
+}
+
+.lets h3 {
+    font-size: 25px;
+}
+
+.lets .mp {
+    margin-bottom: 0;
+}
+
+
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
